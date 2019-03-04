@@ -12,7 +12,7 @@
         android:layout_height="514dp"
         android:layout_marginBottom="248dp"
         android:adjustViewBounds="false"
-        android:background="@drawable/TownClicker"
+        android:background="@drawable/town"
         android:cropToPadding="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
