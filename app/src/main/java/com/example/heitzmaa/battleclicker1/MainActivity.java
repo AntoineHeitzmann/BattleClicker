@@ -1,5 +1,6 @@
 package com.example.heitzmaa.battleclicker1;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -43,5 +44,11 @@ public class MainActivity extends AppCompatActivity {
         mRecyclerView.getAdapter().notifyItemInserted(wordListSize);
         // Scroll to the bottom.
         mRecyclerView.smoothScrollToPosition(wordListSize);
+    }
+
+
+    public void onButtonClick(View v){
+        Intent myIntent = new Intent(getBaseContext(),   ville.class);
+        startActivity(myIntent);
     }
 }

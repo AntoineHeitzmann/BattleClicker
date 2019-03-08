@@ -4,35 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".ville">
 
-
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/recyclerview"
-        android:layout_width="match_parent"
-        android:layout_height="412dp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="105dp"></android.support.v7.widget.RecyclerView>
-
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="85dp"
-        android:layout_height="57dp"
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:background="@color/colorPrimaryDark"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.886"
+        app:layout_constraintHorizontal_bias="0.075"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.041"
+        app:layout_constraintVertical_bias="0.042"
         android:onClick="onButtonClick"
-        app:srcCompat="@drawable/ic_add_for_fab" />
-
-
+        app:srcCompat="?attr/actionModeCloseDrawable" />
 </android.support.constraint.ConstraintLayout>
