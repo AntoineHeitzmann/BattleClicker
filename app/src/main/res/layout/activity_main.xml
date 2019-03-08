@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="412dp"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="105dp"></android.support.v7.widget.RecyclerView>
+        tools:layout_editor_absoluteY="117dp"></android.support.v7.widget.RecyclerView>
 
     <ImageButton
         android:id="@+id/imageButton"
