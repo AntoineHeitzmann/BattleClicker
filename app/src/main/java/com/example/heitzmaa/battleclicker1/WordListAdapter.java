@@ -1,12 +1,15 @@
 package com.example.heitzmaa.battleclicker1;
 
 import android.content.Context;
+import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.CardView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
 
 import java.util.LinkedList;
 
@@ -65,7 +68,8 @@ public class WordListAdapter extends RecyclerView.Adapter<WordListAdapter.WordVi
     public void onBindViewHolder(WordViewHolder holder, int position) {
         String mCurrent = mWordList.get(position);
         holder.wordItemView.setText(mCurrent);
+
+
+
     }
-
-
 }

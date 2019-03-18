@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     private RecyclerView mRecyclerView;
     private WordListAdapter mAdapter;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,4 +52,10 @@ public class MainActivity extends AppCompatActivity {
         Intent myIntent = new Intent(getBaseContext(),   ville.class);
         startActivity(myIntent);
     }
+
+
+
+
+
+
 }
