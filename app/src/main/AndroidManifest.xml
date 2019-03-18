@@ -21,6 +21,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".ville"></activity>
+        <activity android:name=".ClicsActivity"></activity>
     </application>
 
 </manifest>

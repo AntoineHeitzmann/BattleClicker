@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void onButtonClick(View v){
-        Intent myIntent = new Intent(getBaseContext(),   ville.class);
+        Intent myIntent = new Intent(getBaseContext(),   ClicsActivity.class);
         startActivity(myIntent);
     }
 
