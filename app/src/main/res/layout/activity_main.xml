@@ -10,9 +10,9 @@
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recyclerview"
         android:layout_width="match_parent"
-        android:layout_height="412dp"
+        android:layout_height="374dp"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="117dp"></android.support.v7.widget.RecyclerView>
+        tools:layout_editor_absoluteY="0dp"></android.support.v7.widget.RecyclerView>
 
     <ImageButton
         android:id="@+id/imageButton"
@@ -25,13 +25,13 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:background="@color/colorPrimaryDark"
+        android:onClick="onButtonClick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.886"
+        app:layout_constraintHorizontal_bias="0.908"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.041"
-        android:onClick="onButtonClick"
+        app:layout_constraintVertical_bias="0.066"
         app:srcCompat="@drawable/ic_add_for_fab" />
 
 
